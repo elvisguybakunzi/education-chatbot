@@ -4,6 +4,8 @@ A specialized chatbot built using the T5 transformer model, fine-tuned on histor
 
 ### **[Watch The Demo Video](https://www.youtube.com/watch?v=ejDmbRCJPOQ)**
 
+[https://www.youtube.com/watch?v=ejDmbRCJPOQ](https://www.youtube.com/watch?v=ejDmbRCJPOQ)
+
 ## 📌 Overview
 
 The Historical Knowledge Chatbot is an AI-powered conversational agent designed to help users explore historical topics through natural language interaction. The chatbot can answer questions about a wide range of historical subjects, including ancient civilizations, significant events, notable figures, and cultural developments throughout human history.
@@ -40,11 +42,13 @@ pip install transformers tensorflow gradio nltk rouge-score datasets langdetect
    cd education-chatbot
    ```
 
-2. Download the trained model (or train your own using the provided scripts):
-   ```bash
-   # Download pre-trained model
-   mkdir -p models
-   # Copy model files to models directory
+2. Download the trained model:
+   - The model is on google drive
+   - There is bash file to help download the model
+   
+   Run the following command to download the model:
+   ```sh
+   bash download_model.sh
    ```
 
 3. Run the Gradio UI:

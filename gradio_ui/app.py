@@ -13,7 +13,7 @@ except LookupError:
     nltk.download('punkt')
 
 # Load the fine-tuned model and tokenizer
-MODEL_PATH = '../model/'
+MODEL_PATH = '../model'
 
 def load_model(model_path):
     try:
